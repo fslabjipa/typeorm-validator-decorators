@@ -1,0 +1,39 @@
+{
+  "name": "typeorm-validator-decorators",
+  "version": "0.1.0",
+  "description": "A collection of validator decorators. Fully compatible with class-validator to NestJS and TypeORM.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fslabjipa/typeorm-validator-decorators.git"
+  },
+  "keywords": [
+    "typeorm",
+    "validator",
+    "decorators"
+  ],
+  "author": "Joao Teixeira <juniorjipa@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fslabjipa/typeorm-validator-decorators/issues"
+  },
+  "homepage": "https://github.com/fslabjipa/typeorm-validator-decorators#readme",
+  "devDependencies": {
+    "@types/node": "^18.7.1",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  },
+  "peerDependencies": {
+    "class-validator": "^0.13.2",
+    "typeorm": "^0.3.7"
+  },
+  "dependencies": {
+    "@nestjs/common": "^8.4.7"
+  }
+}

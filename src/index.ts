@@ -1,0 +1,1 @@
+export { ValidatorModule } from './validators/validator.module';
