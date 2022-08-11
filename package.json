@@ -1,5 +1,5 @@
 {
-  "name": "typeorm-validator-decorators",
+  "name": "@fslabjipa/typeorm-validator-decorators",
   "version": "0.1.0",
   "description": "A collection of validator decorators. Fully compatible with class-validator to NestJS and TypeORM.",
   "main": "dist/index.js",
