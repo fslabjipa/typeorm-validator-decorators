@@ -53,7 +53,7 @@ export abstract class EntityExistValidator
               [findCondition]:
                 validationCondition && typeof validationCondition !== 'function'
                   ? isObject(value)
-                    ? value[validationCondition]
+                    ? value[validationCondition as any]
                     : value
                   : value,
             } as any),
